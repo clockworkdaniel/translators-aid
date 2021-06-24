@@ -1,0 +1,16 @@
+{
+  "name": "Translator's Aid",
+  "description": "Highlight words of a particular length in a given webpage.",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
