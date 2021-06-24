@@ -7,6 +7,8 @@ To use the extension:
 - Download
 - Go to Chrome extensions:
   - Menu -> More Tools -> Extensions
+- Check 'Developer mode' toggle if it isn't already
+  - (if it's not there at all google this)
 - Click 'Load Unpacked' and choose the 'Chrome Extension' folder
 - The extension should be ready to use
 
